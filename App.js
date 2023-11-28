@@ -3,12 +3,14 @@ import { StyleSheet, Text, View } from 'react-native';
 import MultipleStyles from './component/MultipleStyles';
 import BoxModal from './component/Boxmodal';
 import Boxshadow from './component/BoxShadow';
+import StyleInheritence from './component/StyleInheritence';
 
 export default function App() {
   return (
     // <MultipleStyles/>
     // <BoxModal/>
-    <Boxshadow/>
+    // <Boxshadow/>
+    <StyleInheritence/>
     // <View style={style.container}>
     //   <Text style={style.title}>StyleSheet API</Text>
       
