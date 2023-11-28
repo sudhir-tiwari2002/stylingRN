@@ -2,11 +2,13 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import MultipleStyles from './component/MultipleStyles';
 import BoxModal from './component/Boxmodal';
+import Boxshadow from './component/BoxShadow';
 
 export default function App() {
   return (
     // <MultipleStyles/>
-    <BoxModal/>
+    // <BoxModal/>
+    <Boxshadow/>
     // <View style={style.container}>
     //   <Text style={style.title}>StyleSheet API</Text>
       
